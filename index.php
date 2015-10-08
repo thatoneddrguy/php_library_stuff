@@ -47,4 +47,60 @@
 		
 		//make sure there's not a blank line at end of csv file
 	*/
+	
+	/*
+		alright, libraries
+		php pdf library (google FPDF)
+		
+		$pdf = new FPDF();
+		$pdf->AddPage();
+	*/
+	
+	/*
+		Midterm: short answer/code
+		1. Structure of a PHP program
+			<?php ... ?>
+			
+		2. Define variables in php
+			$vn = "hello";
+			
+		3. Expressions
+			$vn = (12 + 4) * 2;
+			$vn2 = (12 + 4) * 2; (PEMDAS)
+		
+			how to create strings using "."
+			$x = "a".$x."b";
+			
+		4. Use IF Statement
+			> < >= <= !=
+			if()
+			{
+				
+			}
+			else
+			{
+				
+			}
+		5. Be able to use for()
+			for($i=0; $i<12; $i++)
+				
+		6. Define and use an array
+			$arrx = array();
+			$arrx[] = "abc";
+			understand indexes
+			understand sizeof($arr)
+			
+		(no mysql stuff)
+		
+		7. Functions
+			define and use a function
+			pass data to a function and return data from function
+			function ABC($v1)
+			{
+				$v1 = $v1 + 12;
+				return $v1;
+			}
+			
+			$x = ABC(12); //$x set to 24
+	*/
 ?>
